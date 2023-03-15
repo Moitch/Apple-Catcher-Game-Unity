@@ -2,6 +2,7 @@
 Exercise 2 in Unity.
 Mitchell Foley
 COMP-4478
+![image](https://user-images.githubusercontent.com/55286115/225471023-78cedaa4-8a58-4667-a1bd-b9c612831267.png)
 
 **AppleMoveScript.cs**
 
