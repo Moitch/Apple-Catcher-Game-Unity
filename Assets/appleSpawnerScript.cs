@@ -6,8 +6,6 @@ public class appleSpawnerScript : MonoBehaviour
 {
     public GameObject goodApple;
     public GameObject badApple;
-    public float spawnRate = 3;
-    private float timer = 0;
     public float heightOffset = 8;
     // Start is called before the first frame update
     void Start()
@@ -19,15 +17,7 @@ public class appleSpawnerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timer < spawnRate)
-        {
-            timer = timer + Time.deltaTime;
 
-        }
-        else
-        {
-            timer = 0;
-        }
     }
 
     void spawnGoodApple()   
