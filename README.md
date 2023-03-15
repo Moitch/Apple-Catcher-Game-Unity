@@ -67,3 +67,6 @@ restartGame() loads the game scene again and sets the timeScale to 1 to start th
 
 gameOver() sets the gameOverScreen to active as it is hidden usually. It also sets the timeScale to 0 so the flow of time in the game stops, this includes the
 movement of the player and the movement of the apples.
+
+![image](https://user-images.githubusercontent.com/55286115/225471295-12f121dc-253b-4c22-8346-0ac627b8585e.png)
+
