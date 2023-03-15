@@ -59,7 +59,7 @@ public class basketScript : MonoBehaviour
 
     void updateSprite()
     {
-        if (logic.playerScore > 5 && logic.playerScore < 10)
+        if (logic.playerScore >= 5 && logic.playerScore < 10)
         {
             this.gameObject.GetComponent<SpriteRenderer>().sprite = basket1;
         }
