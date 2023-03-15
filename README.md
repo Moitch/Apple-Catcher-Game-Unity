@@ -12,6 +12,8 @@ Within the update function, the position of the apple is constantly being update
 to create a smoother movement. It also checks to see if the y value of the apple is less than the deadzone (y = -6.5), if it is then destroy 
 the apple.
 
+**-------------------------------------------------------------------------------------------------------**
+
 **AppleSpawnerScript.cs**
 
 Initializes Two pre-fab game objects, goodApple and badApple.
@@ -24,6 +26,8 @@ the Instantiate function it creates a new goodApple object with a random x value
 spawnBadApple() is the method for spawning rotten apples, it is a clone of spawnGoodApple() but for badApple.
 
 These functions are called using the InvokeRepeating function with the Start() function.
+
+**-------------------------------------------------------------------------------------------------------**
 
 **BasketScript.js**
 
@@ -40,12 +44,16 @@ Within Unity the goodApple is on layer 3 and the badApple is on layer 6.
 
 UpdateSprite() updates the basket sprite whenever the player reaches a score of 5, 10, and 15.
 
+**-------------------------------------------------------------------------------------------------------**
+
 **BoundariesScript.cs**
 
 Initializes the screenBounds variable that is then called in Start() to get the current boundaries of the screen.
 
 In LateUpdate(), using the Mathf.Clamp function we can calculate the boundaries for x & y of the Vector3 variable viewPos.
 Using the viewPos variable, we prevent the basket from leaving the boundaries of the Vector3.
+
+**-------------------------------------------------------------------------------------------------------**
 
 **LogicScript.cs**
 
