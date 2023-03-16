@@ -44,6 +44,10 @@ OnTriggerEnter2D() checks for collision with the basket and the apples. It does 
 Within Unity the goodApple is on layer 3 and the badApple is on layer 6.
 
 UpdateSprite() updates the basket sprite whenever the player reaches a score of 5, 10, and 15.
+![image](https://user-images.githubusercontent.com/55286115/225471846-e481fa7d-9290-48da-8a0e-f9040b1c9065.png)
+![image](https://user-images.githubusercontent.com/55286115/225472007-6113e3a5-7385-4b8c-bb73-a87bf66e02da.png)
+![image](https://user-images.githubusercontent.com/55286115/225472059-d084c5d8-001c-402a-a932-34f50212b315.png)
+
 
 **-------------------------------------------------------------------------------------------------------**
 
